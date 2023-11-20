@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <!-- <h1>if condition</h1>
+        {% if a < 20 %}
+        <h1>a is less than 20</h1>
+        {% endif %} -->
+        
+        <!-- <h1>if else condition</h1>
+        {% if a > 20 %}
+        <h1>a is greaterthan 20</h1>
+        {% else %}
+        <h1>a is less than 20 </h1>
+        {% endif %} -->
+
+        <!-- <h1> if elif condition</h1>
+        {% if a > b %}
+        <h1>a greaterthan b</h1>
+        {% elif b > c %}
+        <h1>b is greaterthan c </h1>
+        {% else %}
+        <h1> c is greaterthan a, b</h1>
+        {% endif%} -->
+
+        <h1>nested lf condition</h1>
+        {% if a > b %}
+            {% if a > c %}
+               <h1>a is greaterthan c</h1>
+               {% else %}
+               <h1>c is greaterthan a</h1>
+            {% endif %}
+        {% else%}
+            {% if b > c %}
+               <h1>b is greaterthan b</h1>
+               {% else %}
+               <h1>c is greaterthan a,b</h1>
+            {% endif %}
+        {% endif %}
+        
+    </center>
+    
+</body>
+</html>
